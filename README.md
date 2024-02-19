@@ -32,9 +32,9 @@
 - **Development**: Begin the development process! 💪
 
 # Connect 🌐
-- **Docker Discord Channel**: Join me via the [Docker Discord Channel](https://discord.gg/HDnGNa68).
-- **React Community**: I'm "podhead" on Discord and "ji" in the React community.
-- **Direct Messages**: Feel free to send me a direct message.
+- **Docker Discord Channel**: Join me via the [Docker Discord Channel](https://discord.gg/HDnGNa68).  I'm "podhead".
+- **React Community**: In the React Community my name is "ji".
+- **Direct Messages**: Feel free to send me a direct message if you have any questions, or if you want to contribute.
 - 
 # Implementation Plan 🛠️
 - **Python Scripts**: Develop Python scripts to provide the multiplexer's functionalities.

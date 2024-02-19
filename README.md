@@ -1,50 +1,49 @@
 # Kubyplexer 🚀
-> a funky and Kubernetes-beginner-friendly CLI tool to manage your cluster using your mouse! 🎉
+> A funky and Kubernetes-beginner-friendly CLI tool to manage your cluster using your mouse! 🎉
 ## Status 🚧
 **Kubyplexer is currently in the prototype stage.** This means that while the core functionality is implemented, there may be bugs, incomplete features, and areas for improvement. We welcome feedback and contributions to help shape the future of Kubyplexer.
 
-# about 📝
-- manage your cluster directly in your terminal  `without the need of dashboards`
-- find possible methods, flags, and arguments without the need of API docs
-- navigate using your mouse, shortcuts, and arrow-keys 🖱️
-- start your dashboards with one click
-- write your manifests directly in Kubyplexer
-- sync other CLI tools (like k9s) that are running in different TTYs using the given selection
-- free, free, and forever free! 💰
+# About 📝
+- **Direct Cluster Management**: Manage your Kubernetes cluster directly in your terminal without the need for external dashboards.
+- **Effortless Navigation**: Navigate using your mouse, shortcuts, and arrow keys to interact with your cluster.
+- **Immediate Dashboard Access**: Start your Kubernetes dashboards with a single click.
+- **Manifest Creation**: Create and edit Kubernetes manifests directly within Kubyplexer.
+- **Sync with CLI Tools**: Sync other CLI tools like k9s that are running in different TTYs using the given selection.
+- **Free and Open Source**: Kubyplexer is free to use and will always be free! 💰
 
-# ui prototype 🖥️
+# UI Prototype 🖥️
 ![preview](https://github.com/ji-soft/kubyplexer/blob/main/kubyplexer_noinfo.png?raw=true)
 
-# motivation 💡
-- Increase the Kubernetes workflow 🚀
-- I struggled to find the name and port of my k.dashboard, so I wrote a little bash script to select and repeat kubectl commands by its index. *see my Kubehistory repo*
-- So why don't we have a tool like htop but for K8S 🤔
-- I think this could be a really cool project, and I believe it's a project where many people, especially Kubernetes-beginners, can benefit from 🌟
+# Motivation 💡
+- **Enhance Kubernetes Workflow**: Kubyplexer aims to streamline the Kubernetes workflow by providing a user-friendly interface.
+- **Addressing User Challenges**: Created in response to the challenge of finding the name and port of a Kubernetes dashboard, Kubyplexer simplifies the process of repeating and editing kubectl commands.
+- **Inspired by Existing Tools**: Inspired by tools like htop, Kubyplexer aims to offer a similar utility for Kubernetes, making it easier for beginners to manage their clusters.
 
-# planned features 🎯
-- autogenerate commands from selection => edit and execute
-- click on a history object in the kubehistory to repeat/edit
-- double click a window for fullscreen
-- use shift+arrow-key to cycle through the windows, release shift to scroll
-- remove selection to get general commands, like get pods
+# Planned Features 🎯
+- **Command Autogeneration**: Generate commands from selection for easy editing and execution.
+- **Kubehistory Integration**: Click on a history object in the kubehistory to repeat or edit commands.
+- **Fullscreen Mode**: Double-click a window to enter fullscreen mode.
+- **Window Management**: Use shift+arrow-key to cycle through windows, release shift to scroll.
+- **General Commands**: Remove selection to access general commands, like `get pods`.
 
-# roadmap 🗺️
-- find people to support me in making this 🤝
-- decide whether to use python, an actual multiplexer, or to build in C 🔧
-- do it! 💪
+# Roadmap 🗺️
+- **Collaboration**: Find contributors to help develop Kubyplexer.
+- **Technology Decision**: Decide on the technology stack, considering options like Python, a multiplexer, or building in C.
+- **Development**: Begin the development process! 💪
 
-# connect 🌐
-- You can find me via [Docker Discord Channel](https://discord.gg/HDnGNa68)
-- I am "podhead", but in the React community you find me under "ji"
-- DM is ok
-
-# nodes 🧩
-In Python, the `inspect` module can be used to find details and descriptions of classes and methods. It can even be employed to execute a function generically. The `getargspec` function is particularly useful for appending constructor arguments and flags. By adopting this general approach, you can avoid the extensive manual work required to create all the wrapper classes. While I haven't written in C or Java for quite some time😅  I'm confident that with the right guidance and resources, it's possible to accomplish this task using C or any other suitable language. 
+# Connect 🌐
+- **Docker Discord Channel**: Join me via the [Docker Discord Channel](https://discord.gg/HDnGNa68).
+- **React Community**: I'm "podhead" on Discord and "ji" in the React community.
+- **Direct Messages**: Feel free to send me a direct message.
 
 # Implementation Plan 🛠️
-- **Python Scripts**: Develop Python scripts to deliver the desired functionalities of the multiplexer.
-- **Subprocess Library**: Utilize the `subprocess` module to execute commands and capture their output.
-- **TTY Communication**: Handle TTY devices as files and use the `os` module to write to them. Consider using the `pty` module for managing pseudo-terminals.
-- **Permissions**: Ensure your Python script has the necessary permissions to access TTY devices and execute commands.
-- **Security**: Be mindful of security risks associated with command execution and data transmission to TTY devices.
-- **Testing**: Rigorously test your script to confirm it operates as expected and to identify any unintended side effects.
+- **Python Scripts**: Develop Python scripts to provide the multiplexer's functionalities.
+- **Subprocess Library**: Use the `subprocess` module to execute commands and capture output.
+- **TTY Communication**: Manage TTY devices with the `os` and `pty` modules.
+- **Permissions**: Ensure the script has the necessary permissions to access TTY devices and execute commands.
+- **Security**: Consider security risks associated with command execution and TTY device data transmission.
+- **Testing**: Test the script rigorously to ensure it operates as expected and to identify any unintended side effects.
+
+# Nodes 🧩
+In Python, the `inspect` module can be used to inspect classes and methods, which is useful for generating wrapper classes and appending constructor arguments and flags. While htop was written in C, it's possible to create a similar tool in Python, potentially using a high-level language like C or Java for additional functionality such as mouse support. With the right guidance and resources, this task can be accomplished in under   3 months.
+

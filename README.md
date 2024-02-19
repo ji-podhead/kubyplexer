@@ -5,7 +5,7 @@
 
 # About 📝
 - **Direct Cluster Management**: Manage your Kubernetes cluster directly in your terminal without the need for external dashboards.
-- **Effortless Navigation**: Navigate using your mouse, shortcuts, and arrow keys to interact with your cluster.
+- **Effortless Navigation**: Navigate using your mouse, shortcuts, and arrow keys to interact with your cluster. 🖱️
 - **Immediate Dashboard Access**: Start your Kubernetes dashboards with a single click.
 - **Manifest Creation**: Create and edit Kubernetes manifests directly within Kubyplexer.
 - **Sync with CLI Tools**: Sync other CLI tools like k9s that are running in different TTYs using the given selection.
@@ -27,8 +27,8 @@
 - **General Commands**: Remove selection to access general commands, like `get pods`.
 
 # Roadmap 🗺️
-- **Collaboration**: Find contributors to help develop Kubyplexer.
-- **Technology Decision**: Decide on the technology stack, considering options like Python, a multiplexer, or building in C.
+- **Collaboration**: Find contributors to help develop Kubyplexer. 🤝
+- **Technology Decision**: Decide on the technology stack, considering options like Python, a multiplexer, or building in C. 🔧
 - **Development**: Begin the development process! 💪
 
 # Connect 🌐

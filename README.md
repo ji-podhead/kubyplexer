@@ -28,7 +28,7 @@
 
 # roadmap 🗺️
 - find people to support me in making this 🤝
-- decide whether to use an actual multiplexer, or to build in C 🔧
+- decide whether to use python, an actual multiplexer, or to build in C 🔧
 - do it! 💪
 
 # connect 🌐
@@ -37,6 +37,13 @@
 - DM is ok
 
 # nodes 🧩
-In Python, you can use the `inspect` module to find details and descriptions of classes and methods. You can even use it to execute a function generically. The `getargspec` function can be used to append constructor arguments and flags. However, I don't think that my planned project can be written in Python, since a multiplexer with mouse support requires a higher-level programming language like C. This can be quite an advanced and labor-intensive project.
+In Python, you can use the `inspect` module to find details and descriptions of classes and methods. You can even use it to execute a function generically. The `getargspec` function can be used to append constructor arguments and flags. Using this genrical approach would prevent a lot of work to for creating all the wrapper classes manually. 
+I haven't written in C or Java for quite some time, so I'm not sure if I can do this alone using C.  😅
 
-I haven't written in C or Java for quite some time, so I'm not sure if I can do this alone. 😅
+# Implementation Plan 🛠️
+- **Python Scripts**: Develop Python scripts to deliver the desired functionalities of the multiplexer.
+- **Subprocess Library**: Utilize the `subprocess` module to execute commands and capture their output.
+- **TTY Communication**: Handle TTY devices as files and use the `os` module to write to them. Consider using the `pty` module for managing pseudo-terminals.
+- **Permissions**: Ensure your Python script has the necessary permissions to access TTY devices and execute commands.
+- **Security**: Be mindful of security risks associated with command execution and data transmission to TTY devices.
+- **Testing**: Rigorously test your script to confirm it operates as expected and to identify any unintended side effects.

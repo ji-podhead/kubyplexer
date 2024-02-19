@@ -2,7 +2,9 @@
   <img src="https://github.com/ji-soft/kubyplexer/blob/main/images/kubyplexer_small2.jpg?raw=true" alt="logo" />
 </p>
 
-` A funky and Kubernetes-beginner-friendly CLI tool to manage your cluster using your mouse! 🚀 `
+<p align="center" style="font-size:  1.2em;">
+  <strong>A funky and Kubernetes-beginner-friendly CLI tool to manage your cluster using your mouse! 🚀</strong>
+</p>
 
 # About 📝
 - **Direct Cluster Management**: Manage your Kubernetes cluster directly in your terminal without the need for external dashboards.
@@ -36,6 +38,8 @@
 - **Collaboration**: Find contributors to help develop Kubyplexer. 🤝
 - **Technology Decision**: Decide on the technology stack, considering options like Python, a multiplexer, or building in C.
 - **Development**: Begin the development process! 💪
+- **Community Engagement**: Create a website for Kubyplexer to introduce it to the community and gather feedback on desired features and improvements.
+- **Feature Prioritization**: Engage with the community to determine which features are most needed and which can be deferred or omitted.
 
 # Connect 🌐
 - **Docker Discord Channel**: Join me via the [Docker Discord Channel](https://discord.gg/HDnGNa68).  I'm "podhead".
@@ -52,4 +56,4 @@
 - **Mouse Support**: Implement mouse support using libraries such as `curses` to handle mouse events within the terminal.
 
 # Nodes 🧩
-In Python, the `inspect` module can be used to inspect classes and methods, which is useful for generating wrapper classes and appending constructor arguments and flags. While htop is written in C, it is possible to create a similar tool in Python and perhaps use a high-level language such as C or Java for a simpler approach to features such as mouse support. With the right guidance and resources, this core functionality can be completed in less than   3 months I hope!
+In Python, the `inspect` module can be used to inspect classes and methods, which is useful for generating wrapper classes and appending constructor arguments and flags. While htop is written in C, it is possible to create a similar tool in Python and perhaps use a high-level language such as C or Java for a simpler approach to features such as mouse support. I hope that the right guidance, support and resources, this core functionality can be completed in less than 3 months! 💪

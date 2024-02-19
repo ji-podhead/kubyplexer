@@ -2,7 +2,7 @@
 > a funky and Kubernetes-beginner-friendly CLI tool to manage your cluster using your mouse! 🎉
 
 # about 📝
-- manage your cluster without the need of exposing ports directly in your shell
+- manage your cluster without the need of dashboards directly in your terminal
 - find possible methods, flags, and arguments without the need of API docs
 - navigate using your mouse, shortcuts, and arrow-keys
 - start your dashboards with one click

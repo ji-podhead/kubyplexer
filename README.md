@@ -5,7 +5,7 @@
 
 # About 📝
 - **Direct Cluster Management**: Manage your Kubernetes cluster directly in your terminal without the need for external dashboards.
-- **Effortless Navigation**: Navigate using your mouse, shortcuts, and arrow keys to interact with your cluster. 🖱️
+- **Effortless Navigation**: Navigate using your mouse, shortcuts, and arrow keys to interact with your cluster.
 - **Immediate Dashboard Access**: Start your Kubernetes dashboards with a single click.
 - **Manifest Creation**: Create and edit Kubernetes manifests directly within Kubyplexer.
 - **Sync with CLI Tools**: Sync other CLI tools like k9s that are running in different TTYs using the given selection.
@@ -27,8 +27,8 @@
 - **General Commands**: Remove selection to access general commands, like `get pods`.
 
 # Roadmap 🗺️
-- **Collaboration**: Find contributors to help develop Kubyplexer. 🤝
-- **Technology Decision**: Decide on the technology stack, considering options like Python, a multiplexer, or building in C. 🔧
+- **Collaboration**: Find contributors to help develop Kubyplexer.
+- **Technology Decision**: Decide on the technology stack, considering options like Python, a multiplexer, or building in C.
 - **Development**: Begin the development process! 💪
 
 # Connect 🌐
@@ -43,7 +43,8 @@
 - **Permissions**: Ensure the script has the necessary permissions to access TTY devices and execute commands.
 - **Security**: Consider security risks associated with command execution and TTY device data transmission.
 - **Testing**: Test the script rigorously to ensure it operates as expected and to identify any unintended side effects.
+- **Mouse Support**: Implement mouse support using libraries such as `curses` to handle mouse events within the terminal.
 
 # Nodes 🧩
-In Python, the `inspect` module can be used to inspect classes and methods, which is useful for generating wrapper classes and appending constructor arguments and flags. While htop was written in C, it's possible to create a similar tool in Python, potentially using a high-level language like C or Java for additional functionality such as mouse support. With the right guidance and resources, this task can be accomplished in under   3 months.
+In Python, the `inspect` module can be used to inspect classes and methods, which is useful for generating wrapper classes and appending constructor arguments and flags. 
 

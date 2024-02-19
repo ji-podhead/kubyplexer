@@ -46,5 +46,5 @@
 - **Mouse Support**: Implement mouse support using libraries such as `curses` to handle mouse events within the terminal.
 
 # Nodes 🧩
-In Python, the `inspect` module can be used to inspect classes and methods, which is useful for generating wrapper classes and appending constructor arguments and flags. While htop is written in C, it is possible to create a similar tool in Python and perhaps use a high-level language such as C or Java for a simpler approach to features such as mouse support. With the right guidance and resources, this core functionality can be completed in less than  3 months.
+In Python, the `inspect` module can be used to inspect classes and methods, which is useful for generating wrapper classes and appending constructor arguments and flags. While htop is written in C, it is possible to create a similar tool in Python and perhaps use a high-level language such as C or Java for a simpler approach to features such as mouse support. With the right guidance and resources, this core functionality can be completed in less than  3 months I hope!
 

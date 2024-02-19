@@ -14,7 +14,7 @@
         <table>
           <tbody>
             <tr>
-              <small><td>manage your cluster without the need of exposing ports directly in your shell</td></small>
+              <td><small>manage your cluster without the need of exposing ports directly in your shell</small></td>
             </tr>
             <tr>
               <td>find possible methods, flags, and arguments without the need of API docs</td>
@@ -30,21 +30,6 @@
             </tr>
             <tr>
               <td>sync other CLI tools (like k9s) that are running in different TTYs using the given selection</td>
-            </tr>
-            <tr>
-              <td>autogenerate commands from selection => edit and execute</td>
-            </tr>
-            <tr>
-              <td>click on a history object in the kubehistory to repeat/edit</td>
-            </tr>
-            <tr>
-              <td>double click a window for fullscreen</td>
-            </tr>
-            <tr>
-              <td>use shift+arrow-key to cycle through the windows, release shift to scroll</td>
-            </tr>
-            <tr>
-              <td>remove selection to get general commands, like get pods</td>
             </tr>
           </tbody>
         </table>

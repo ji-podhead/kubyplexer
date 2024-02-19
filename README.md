@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://github.com/ji-soft/kubyplexer/blob/main/kubyplexer_small2.jpg?raw=true" alt="logo" />
-</p> 
+  <img src="https://github.com/ji-soft/kubyplexer/blob/main/images/kubyplexer_small2.jpg?raw=true" alt="logo" />
+</p>
 
 > A funky and Kubernetes-beginner-friendly CLI tool to manage your cluster using your mouse! 🚀
 
@@ -21,7 +21,7 @@
 
 # UI Prototype 🖥️
 <p align="center">
-  <img src="https://github.com/ji-soft/kubyplexer/blob/main/kubyplexer_noinfo.png?raw=true" />
+  <img src="https://github.com/ji-soft/kubyplexer/blob/main/images/kubyplexer_noinfo.png?raw=true" />
 </p>
 
 # Motivation 💡

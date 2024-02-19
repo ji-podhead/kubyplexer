@@ -4,7 +4,7 @@
 **Kubyplexer is currently in the prototype stage.** This means that while the core functionality is implemented, there may be bugs, incomplete features, and areas for improvement. We welcome feedback and contributions to help shape the future of Kubyplexer.
 
 # about 📝
-- manage your cluster `without the need of dashboards` directly in your terminal
+- manage your cluster directly in your terminal  `without the need of dashboards`
 - find possible methods, flags, and arguments without the need of API docs
 - navigate using your mouse, shortcuts, and arrow-keys 🖱️
 - start your dashboards with one click

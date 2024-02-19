@@ -18,7 +18,7 @@
 # motivation 💡
 - Increase the Kubernetes workflow 🚀
 - I struggled to find the name and port of my k.dashboard, so I wrote a little bash script to select and repeat kubectl commands by its index. *see my Kubehistory repo*
-- So why don't we have a tool like htop but for K8s 🤔
+- So why don't we have a tool like htop but for K8S 🤔
 - I think this could be a really cool project, and I believe it's a project where many people, especially Kubernetes-beginners, can benefit from 🌟
 
 # planned features 🎯

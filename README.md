@@ -11,7 +11,7 @@ a cli tool to manage your cluster with style!
 - do it!
 
 # connect
-- you can find me via ![docker discord channel](https://discord.gg/HDnGNa68)
+- You can find me via [Docker Discord Channel](https://discord.gg/HDnGNa68)
 - i am "podhead", but in the react community you find me under "ji"
 - dm is ok
 

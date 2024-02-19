@@ -1,9 +1,12 @@
 # Kubyplexer
 > a funky cli tool to manage your cluster using your mouse!
- 
+
 | planned features | ui prototype |
 | ------------------- | --------- |
-|- cli tool with mouse and arrow input <br> - manage your cluster with style without the need of exposing ports <br> <br> - autogenerate commands from selection => edit and execute   <br> <br> - double click a window for fullscreen <br> <br> - start your dashboards with one click <br> <br> - click on a history object in the kubehistory to select, edit and execute <br> <br> - use shift to cycle through the windows, release shift and scroll via arrows <br> <br> - remove selection to get general commands, like get pods <br> <br> - write manifest directly in the multiplexer | ![preview](https://github.com/ji-soft/kubyplexer/blob/main/kubyplexer_noinfo.png?raw=true) |
+| - cli tool with mouse and arrow input <br> - manage your cluster with style without the need of exposing ports <br> - autogenerate commands from selection => edit and execute <br> - double click a window for fullscreen <br> - start your dashboards with one click <br> - click on a history object in the kubehistory to select, edit and execute <br> - use shift to cycle through the windows, release shift and scroll via arrows <br> - remove selection to get general commands, like get pods <br> - write manifest directly in the multiplexer | ![preview](https://github.com/ji-soft/kubyplexer/blob/main/kubyplexer_noinfo.png?raw=true) |
+
+## UI Prototype
+![preview](https://github.com/ji-soft/kubyplexer/blob/main/kubyplexer_noinfo.png?raw=true)
 
 # motivation
 - Increase the kubernetes workflow baby!

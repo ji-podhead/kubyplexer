@@ -2,7 +2,7 @@
   <img src="https://github.com/ji-soft/kubyplexer/blob/main/images/kubyplexer_small2.jpg?raw=true" alt="logo" />
 </p>
 
-> A funky and Kubernetes-beginner-friendly CLI tool to manage your cluster using your mouse! 🚀
+` A funky and Kubernetes-beginner-friendly CLI tool to manage your cluster using your mouse! 🚀 `
 
 # About 📝
 - **Direct Cluster Management**: Manage your Kubernetes cluster directly in your terminal without the need for external dashboards.

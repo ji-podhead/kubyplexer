@@ -37,8 +37,7 @@
 - DM is ok
 
 # nodes 🧩
-In Python, you can use the `inspect` module to find details and descriptions of classes and methods. You can even use it to execute a function generically. The `getargspec` function can be used to append constructor arguments and flags. Using this genrical approach would prevent a lot of work to for creating all the wrapper classes manually. 
-I haven't written in C or Java for quite some time, so I'm not sure if I can do this alone using C.  😅
+In Python, the `inspect` module can be used to find details and descriptions of classes and methods. It can even be employed to execute a function generically. The `getargspec` function is particularly useful for appending constructor arguments and flags. By adopting this general approach, you can avoid the extensive manual work required to create all the wrapper classes. While I haven't written in C or Java for quite some time😅  I'm confident that with the right guidance and resources, it's possible to accomplish this task using C or any other suitable language. 
 
 # Implementation Plan 🛠️
 - **Python Scripts**: Develop Python scripts to deliver the desired functionalities of the multiplexer.

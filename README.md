@@ -35,7 +35,7 @@
 - **Docker Discord Channel**: Join me via the [Docker Discord Channel](https://discord.gg/HDnGNa68).
 - **React Community**: I'm "podhead" on Discord and "ji" in the React community.
 - **Direct Messages**: Feel free to send me a direct message.
-
+- 
 # Implementation Plan 🛠️
 - **Python Scripts**: Develop Python scripts to provide the multiplexer's functionalities.
 - **Subprocess Library**: Use the `subprocess` module to execute commands and capture output.
@@ -43,6 +43,8 @@
 - **Permissions**: Ensure the script has the necessary permissions to access TTY devices and execute commands.
 - **Security**: Consider security risks associated with command execution and TTY device data transmission.
 - **Testing**: Test the script rigorously to ensure it operates as expected and to identify any unintended side effects.
+- **Mouse Support**: Implement mouse support using libraries such as `curses` to handle mouse events within the terminal.
 
 # Nodes 🧩
-In Python, the `inspect` module can be used to inspect classes and methods, which is useful for generating wrapper classes and appending constructor arguments and flags. While htop was written in C, it's possible to create a similar tool in Python, potentially using a high-level language like C or Java for additional functionality such as mouse support. With the right guidance and resources, this task can be accomplished in under   3 months.
+In Python, the `inspect` module can be used to inspect classes and methods, which is useful for generating wrapper classes and appending constructor arguments and flags. While htop is written in C, it is possible to create a similar tool in Python and perhaps use a high-level language such as C or Java for a simpler approach to features such as mouse support. With the right guidance and resources, this core functionality can be completed in less than  3 months.
+

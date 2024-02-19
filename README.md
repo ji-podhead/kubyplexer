@@ -14,7 +14,7 @@
         <table>
           <tbody>
             <tr>
-              <td>manage your cluster without the need of exposing ports directly in your shell</td>
+              <small><td>manage your cluster without the need of exposing ports directly in your shell</td></small>
             </tr>
             <tr>
               <td>find possible methods, flags, and arguments without the need of API docs</td>

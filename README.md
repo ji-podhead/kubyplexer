@@ -1,5 +1,7 @@
 # Kubyplexer 🚀
 > a funky and Kubernetes-beginner-friendly CLI tool to manage your cluster using your mouse! 🎉
+## Status 🚧
+**Kubyplexer is currently in the prototype stage.** This means that while the core functionality is implemented, there may be bugs, incomplete features, and areas for improvement. We welcome feedback and contributions to help shape the future of Kubyplexer.
 
 # about 📝
 - manage your cluster without the need of dashboards directly in your terminal

@@ -42,18 +42,25 @@
 - **Feature Prioritization**: Engage with the community to determine which features are most needed and which can be deferred or omitted.
 
 # Connect 🌐
-- **Docker Discord Channel**: Join me via the [Docker Discord Channel](https://discord.gg/HDnGNa68).  I'm "podhead".
+- ~~**Docker Discord Channel**: Join me via the [Docker Discord Channel](https://discord.gg/HDnGNa68).~~
+- **Twitter/X**: Find me via "ji.podhead"
 - **React Community**: In the React Community my name is "ji".
 - **Direct Messages**: Feel free to send me a direct message if you have any questions, or if you want to contribute.
   
 # Implementation Plan 🛠️
-- **Python Scripts**: Develop Python scripts to provide the multiplexer's functionalities.
-- **Subprocess Library**: Use the `subprocess` module to execute commands and capture output.
-- **TTY Communication**: Manage TTY devices with the `os` and `pty` modules.
-- **Permissions**: Ensure the script has the necessary permissions to access TTY devices and execute commands.
-- **Security**: Consider security risks associated with command execution and TTY device data transmission.
-- **Testing**: Test the script rigorously to ensure it operates as expected and to identify any unintended side effects.
-- **Mouse Support**: Implement mouse support using libraries such as `curses` to handle mouse events within the terminal.
+       
+- Python Scripts: Develop Golang scripts to provide the multiplexer's functionalities using [tview](https://github.com/rivo/tview)  
+- ~~Python Scripts: Develop Python scripts to provide the multiplexer's functionalities.~~
+- ~~Subprocess Library: Use the `subprocess` module to execute commands and capture output.~~
+- ~~TTY Communication: Manage TTY devices with the `os` and `pty` modules.~~
+- Permissions: Ensure the script has the necessary permissions to access TTY devices and execute commands.
+- Security: Consider security risks associated with command execution and TTY device data transmission.
+- testing: Test the script rigorously to ensure it operates as expected and to identify any unintended side effects.
+- ~~Mouse Support: Implement mouse support using libraries such as `curses` to handle mouse events within the terminal.~~
+
 
 # Nodes 🧩
-In Python, the inspect module is particularly useful for inspecting classes and methods, which can aid in generating wrapper classes and appending constructor arguments and flags. Although tools like htop are written in C, it is feasible to create a similar utility in Python, potentially using a high-level language like C or Java to simplify the implementation of features such as mouse support. With the appropriate guidance, support, and resources, I am confident that the core functionality of Kubyplexer can be developed within a timeframe of less than three months!" 💪
+> In Python, the inspect module is particularly useful for inspecting classes and methods, which can aid in generating wrapper classes and appending constructor arguments and flags. Although tools like htop are written in C, it is feasible to create a similar utility in Python, potentially using a high-level language like C or Java to simplify the implementation of features such as mouse support. With the appropriate guidance, support, and resources, I am confident that the core functionality of Kubyplexer can be developed within a timeframe of less than three months!" 💪
+
+> Docker Discord was disappointing. I asked a simnple question and they told me to hire a consultant. this is not how you treat people who want to publish free and usefull software   
+> I decided to choose golang as the main language. but maybe i use python to implement the generic stuff 

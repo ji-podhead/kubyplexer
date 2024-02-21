@@ -9,7 +9,7 @@
 # About 📝
 - **Direct Cluster Management**: Manage your Kubernetes cluster directly in your terminal without the need for external dashboards.
 - **Effortless Navigation**: Navigate using your mouse, shortcuts, and arrow keys to interact with your cluster. 🖱️
-- **Immediate Dashboard Access**: Start your Kubernetes dashboards with a single click.
+- **Dashboard Access**: Start your Kubernetes dashboards with a single click and use them inside kubiplexer. 
 - **Manifest Creation**: Create and edit Kubernetes manifests directly within Kubyplexer.
 - **Sync with CLI Tools**: Sync other CLI tools like k9s that are running in different TTYs using the given selection.
 - **Free and Open Source**: Kubyplexer is free to use and will always be free! 💰
@@ -48,8 +48,8 @@
 - **Direct Messages**: Feel free to send me a direct message if you have any questions, or if you want to contribute.
   
 # Implementation Plan 🛠️
-       
-- Golang Scripts: Develop Golang scripts to provide the multiplexer's functionalities using [tview](https://github.com/rivo/tview)  
+- use eslint as gui
+- ~~Golang Scripts: Develop Golang scripts to provide the multiplexer's functionalities using [tview](https://github.com/rivo/tview)~~  
 - ~~Python Scripts: Develop Python scripts to provide the multiplexer's functionalities.~~
 - ~~Subprocess Library: Use the `subprocess` module to execute commands and capture output.~~
 - ~~TTY Communication: Manage TTY devices with the `os` and `pty` modules.~~

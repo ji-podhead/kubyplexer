@@ -64,3 +64,5 @@
 
 > Docker Discord was disappointing. I asked a simnple question and they told me to hire a consultant. this is not how you treat people who want to publish free and usefull software   
 > I decided to choose golang as the main language. but maybe i use python to implement the generic stuff 
+
+>tview cant provide scrollbars, nor it gives you the possibility to create your own, so now its on slint to get it done

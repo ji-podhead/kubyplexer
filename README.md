@@ -48,7 +48,8 @@
 - **Direct Messages**: Feel free to send me a direct message if you have any questions, or if you want to contribute.
   
 # Implementation Plan 🛠️
-- use slint as gui. k9s or tview wont get me further. 
+- use slint as gui. k9s or tview wont get me further.
+- create a hook-funktionality for cluster properties => use notify crate in rust 
 - ~~Golang Scripts: Develop Golang scripts to provide the multiplexer's functionalities using [tview](https://github.com/rivo/tview)~~  
 - ~~Python Scripts: Develop Python scripts to provide the multiplexer's functionalities.~~
 - ~~Subprocess Library: Use the `subprocess` module to execute commands and capture output.~~

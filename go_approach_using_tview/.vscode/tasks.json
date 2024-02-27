@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "list-directory",
+            "type": "shell",
+            "command": "ls",
+            "args": ["-la"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+
+        },
+   
+            {
+                "label": "Run as Bash Script",
+                "type": "shell",
+                "command": "/bin/bash ${file}",
+                "problemMatcher": [],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                }
+            }
+    ]
+    }
+    
+    

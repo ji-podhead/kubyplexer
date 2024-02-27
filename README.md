@@ -3,11 +3,12 @@
 </p>
 
 <p align="center" style="font-size:  1.2em;">
-  <strong>A funky and Kubernetes-beginner-friendly CLI tool to manage your cluster using your mouse! 🚀</strong>
+  <strong>A funky and Kubernetes-beginner-friendly tool to manage your cluster using your mouse! 🚀 </strong>
+  Kubyplexer is becoming a VS code extension :) :)
 </p>
 
 # About 📝
-- **Direct Cluster Management**: Manage your Kubernetes cluster directly in your terminal without the need for external dashboards.
+- **Direct Cluster Management**: Manage your Kubernetes cluster directly in your vscode/app window without the need for external dashboards.
 - **Effortless Navigation**: Navigate using your mouse, shortcuts, and arrow keys to interact with your cluster. 🖱️
 - **Dashboard Access**: Start your Kubernetes dashboards with a single click and use them inside kubiplexer. 
 - **Manifest Creation**: Create and edit Kubernetes manifests directly within Kubyplexer.
@@ -48,22 +49,24 @@
 - **Direct Messages**: Feel free to send me a direct message if you have any questions, or if you want to contribute.
   
 # Implementation Plan 🛠️
-- use slint as gui. k9s or tview wont get me further.
-- create a hook-funktionality for cluster properties => use notify crate in rust 
+- use slint as gui.tview wont get me further. But nodejs and python seem to be perfect solution.
+- ~~create a hook-funktionality for cluster properties => use notify crate in rust~~
 - ~~Golang Scripts: Develop Golang scripts to provide the multiplexer's functionalities using [tview](https://github.com/rivo/tview)~~  
-- ~~Python Scripts: Develop Python scripts to provide the multiplexer's functionalities.~~
-- ~~Subprocess Library: Use the `subprocess` module to execute commands and capture output.~~
+- Python Scripts: Develop Python scripts to provide the multiplexer's functionalities.
+- Subprocess Library: Use the `subprocess` module to execute commands and capture output.
 - ~~TTY Communication: Manage TTY devices with the `os` and `pty` modules.~~
-- ~~Permissions: Ensure the script has the necessary permissions to access TTY devices and execute commands.~~
-- ~~Security: Consider security risks associated with command execution and TTY device data transmission.~~
-- ~~testing: Test the script rigorously to ensure it operates as expected and to identify any unintended side effects.~~
+- Permissions: Ensure the script has the necessary permissions to access TTY devices and execute commands.
+- Security: Consider security risks associated with command execution and TTY device data transmission.
+- testing: Test the script rigorously to ensure it operates as expected and to identify any unintended side effects.
 - ~~Mouse Support: Implement mouse support using libraries such as `curses` to handle mouse events within the terminal.~~
 
 
 # Nodes 🧩
 > In Python, the inspect module is particularly useful for inspecting classes and methods, which can aid in generating wrapper classes and appending constructor arguments and flags. Although tools like htop are written in C, it is feasible to create a similar utility in Python, potentially using a high-level language like C or Java to simplify the implementation of features such as mouse support. With the appropriate guidance, support, and resources, I am confident that the core functionality of Kubyplexer can be developed within a timeframe of less than three months!" 💪
 
-> Docker Discord was disappointing. I asked a simnple question and they told me to hire a consultant. this is not how you treat people who want to publish free and usefull software   
-> I decided to choose golang as the main language. but maybe i use python to implement the generic stuff 
-
+> Docker Discord was disappointing. I asked a simnple question and they told me to hire a consultant. 
+> ~~I decided to choose golang as the main language. but maybe i use python to implement the generic stuff~~
 >tview cant provide scrollbars, nor it gives you the possibility to create your own, so now its on slint to get it done
+>slint can also render to console, however there are some tasks to be solved > [see this discussion](https://github.com/slint-ui/slint/discussions/4672) 
+>rust is not very friendly when it comes to generic stuff and it sooo much redundant boilerplate code that I decided to use nodejs + python +slint :)
+>with nodejs we can create a vscode extrension in no time so **kubyplexer is becoming a vs code extension** 

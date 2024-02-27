@@ -1,5 +1,209 @@
 #!/bin/bash
-#install using curl -sSL https://raw.githubusercontent.com/ji-soft/kubyplexer/main/install.sh | bash
+# Funktion zum Anzeigen blinkender Emojis
+diamond_states=("🔹🔹🔹🔹🔹" "🔹🔹🔹🔹🔷" "🔹🔹🔹🔷🔷" "🔹🔹🔷🔷🔷" "🔹🔷🔷🔷🔷" "🔷🔷🔷🔷🔷")
+diamond_states2=("🔹🔹🔹🔹🔹" "🔷🔹🔹🔹🔹" "🔷🔷🔹🔹🔹" "🔷🔷🔷🔹🔹" "🔷🔷🔷🔷🔹" "🔷🔷🔷🔷🔷" )
+# Funktion zum Anzeigen blinkender Diamanten
+show_diamonds() {
+    # Schleife durch die Zustände der Diamanten
+    for state in "${diamond_states[@]}"; do
+        # Clear-Befehl, um die vorherige Zeile zu löschen
+        clear
+        # Diamanten ausgeben
+        echo "$state"
+        # Wartezeit einstellen, um die Geschwindigkeit der Animation zu kontrollieren
+        sleep  0.5
+    done
+
+    # Richtungsänderung
+    for ((i=${#diamond_states[@]}-1; i>=0; i--)); do
+        clear
+        echo "${diamond_states[$i]}"
+        sleep  0.5
+    done
+}
+fadein() {
+    # Blinkmodus (0 = 🔹,   1 = 🔷)
+    blink=0
+    # Jogger-Zeichen
+    jogger="🏃"
+    jogger2="🏃"
+    # Startposition des Joggers
+    start_pos=$(tput cols)
+    # Endposition des Joggers
+    end_pos=0
+    # Aktuelle Position des Joggers
+    pos=$start_pos
+    pos2=$start_pos
+    # Blinkcounter für das Blinken der Emojis
+    blink_counter=0
+    local counter=0
+    local max_states=${#diamond_states[@]}
+    local end_pos=$((max_states *   2))
+    local state_index=0;
+    total_width=$(tput cols) # Gesamtbreite des Terminals
+    text_width=$(echo -n "$state Kubyplexer $state2" | wc -c) # Breite des Textes
+    padding=$(( (total_width - text_width) /   3   )) # Berechnung der Leerzeichen
+    # Schleife für die Animation
+    while [ $pos -ge $end_pos ]; do
+            # Zustand basierend auf dem Zähler bestimmen
+            # Position des Joggers aktualisieren
+            pos=$((pos -   1))
+            pos2=$((pos2 +   1))
+
+            # Clear-Befehl, um die vorherige Zeile zu löschen
+            clear
+            echo ""
+            echo ""
+
+            # Zeichen an der aktuellen Position des Joggers ausgeben
+            printf "%-*s" $pos ""
+            echo ""
+            echo ""
+            echo ""
+
+            # Blinkmodus umschalten
+            if [ $((blink_counter %   8)) -eq   0 ]; then
+                blink=0
+            else
+                blink=1
+            fi
+            # Emoji ausgeben, je nach Blinkmodus
+            if [ $blink -eq   0 ]; then
+                if (( $state_index <   5 )); then
+                    ((state_index++))
+                else
+                    state_index=0
+                fi
+            fi    
+            local state="${diamond_states[$state_index]}"
+            local state2="${diamond_states2[$state_index]}"
+            printf "%*s" $padding ""
+
+            echo "$state >> Kubyplexer << $state2"
+
+
+
+            # Diamanten hinter dem Jogger einsetzen
+            for ((i=0; i<$pos; i++)); do
+                printf "%-*s" $i ""
+                printf "💎"
+            done
+
+            # Wartezeit einstellen, um die Geschwindigkeit der Animation zu kontrollieren
+            sleep   0.02
+            # Blinkcounter aktualisieren
+            blink_counter=$((blink_counter +   1))
+    done
+}
+
+show_blinking_emojis() {
+    # Blinkmodus (0 = 🔹,   1 = 🔷)
+    blink=0
+    # Jogger-Zeichen
+    jogger="🏃"
+    jogger2="🏃"
+    # Startposition des Joggers
+    start_pos=$(tput cols)
+    # Endposition des Joggers
+    end_pos=0
+    # Aktuelle Position des Joggers
+    pos=$start_pos
+    pos2=$start_pos
+    # Blinkcounter für das Blinken der Emojis
+    blink_counter=0
+    local counter=0
+    local max_states=${#diamond_states[@]}
+    local end_pos=$((max_states *   2))
+    local state_index=0;
+    total_width=$(tput cols) # Gesamtbreite des Terminals
+    text_width=$(echo -n "$state Kubyplexer $state2" | wc -c) # Breite des Textes
+    padding=$(( (total_width - text_width) /   3   )) # Berechnung der Leerzeichen
+    # Schleife für die Animation
+    while [ $pos -ge $end_pos ]; do
+            # Zustand basierend auf dem Zähler bestimmen
+            # Position des Joggers aktualisieren
+            pos=$((pos -   1))
+            pos2=$((pos2 +   1))
+
+            # Clear-Befehl, um die vorherige Zeile zu löschen
+            clear
+            echo ""
+            echo ""
+
+            # Zeichen an der aktuellen Position des Joggers ausgeben
+            printf "%-*s" $pos ""
+            echo "$jogger"
+            echo ""
+            echo ""
+
+            # Blinkmodus umschalten
+            if [ $((blink_counter %   8)) -eq   0 ]; then
+                blink=0
+            else
+                blink=1
+            fi
+            # Emoji ausgeben, je nach Blinkmodus
+            if [ $blink -eq   0 ]; then
+                if (( $state_index <   5 )); then
+                    ((state_index++))
+                else
+                    state_index=0
+                fi
+            fi    
+            local state="${diamond_states[$state_index]}"
+            local state2="${diamond_states2[$state_index]}"
+            printf "%*s" $padding ""
+
+            echo "$state >> Kubyplexer << $state2"
+
+            echo ""
+            echo ""
+            printf "%-*s" $pos2 ""
+            echo "$jogger2"
+
+            # Wartezeit einstellen, um die Geschwindigkeit der Animation zu kontrollieren
+            sleep   0.02
+            # Blinkcounter aktualisieren
+            blink_counter=$((blink_counter +   1))
+    done
+}
+
+
+# Hauptfunktion, um die Animationen zu starten
+main() {
+    # Kubyplexer-Header
+    echo "🎉 Kubyplexer 🎉"
+    echo "_________________________________________________________________"
+
+    # Animationen in Hintergrund-Prozessen starten
+   # show_diamonds
+   fadein
+    show_blinking_emojis 
+
+    # Wartezeit, um die Animationen anzuzeigen
+
+    # Animationen stoppen (durch Senden von SIGINT)
+    kill -INT $!
+    kill -INT $!
+    kill -INT $!
+
+    # Cleanup
+    clear
+    echo "Animation beendet. Viel Spaß mit Kubyplexer!"
+}
+
+# Hauptfunktion aufrufen
+main
+
+
+
+
+
+
+
+
+
+#install using curl -SL https://raw.githubusercontent.com/ji-soft/kubyplexer/main/install.sh | bash
 # Install wget
 sudo apt-get update
 sudo apt-get install -y wget
@@ -85,6 +289,8 @@ echo "              ----> installing dependencies <----"
 echo "_________________________________________________________________"
 
 echo "                ----> installation complete <----"
-echo "starting kubyplexer. Have fun :) "
+echo "run >>npm start<< to start the standalone version of kubyplexer"
+echo "starting kubyplexer now. Have fun :) "
+rm install.sh
 cd kubyplexer
 npm start

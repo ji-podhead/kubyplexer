@@ -286,7 +286,7 @@ echo "              ----> installing dependencies <----"
 
     # Install required Python packages
     python3.9 -m pip install kubernetes --target=./kubyplexer/python_dependencies
-    cd kubyplexer 
+   # cd kubyplexer 
    # npm install slint-ui
    # cd ../
 echo "_________________________________________________________________"

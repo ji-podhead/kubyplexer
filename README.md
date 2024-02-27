@@ -37,7 +37,7 @@
 **Kubyplexer is currently in the prototype stage.** This means that while the core functionality is implemented, there may be bugs, incomplete features, and areas for improvement. We welcome feedback and contributions to help shape the future of Kubyplexer.
 
 # Install 💾
-- run  curl https://raw.githubusercontent.com/ji-soft/kubyplexer/main/install.sh > install.sh && bash install.sh 
+- run  `curl https://raw.githubusercontent.com/ji-soft/kubyplexer/main/install.sh > install.sh && bash install.sh` 
 - install script will create some folders, installing dependencies, clean up and start the standalone version
 - for manuall install, pls create folder named python_dependencies inside kubyplexer and install dependencies there
   

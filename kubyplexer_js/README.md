@@ -1,3 +1,6 @@
+# Start a python script by clicking the lower button.
+-below you find the slint manual
+
 # Slint Node.js Template
 
 A template for a Node.js application that's using Slint for the user interface and Node.js for the build system.

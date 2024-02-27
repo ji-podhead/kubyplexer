@@ -3,13 +3,14 @@
 </p>
 
 <p align="center" style="font-size:  1.2em;">
-  <strong>A funky and Kubernetes-beginner-friendly tool to manage your cluster using your mouse! 🚀 </strong>
-  Kubyplexer is becoming a VS code extension :) :)
-</p>
+  <strong>A funky and Kubernetes-beginner-friendly tool to manage your cluster using your mouse! 🖱️  </strong>
+  </p>
+  <p align="center" style="font-size:  1.0em;"> 🚀 Kubyplexer is becoming a VS code extension 🚀 :) :)
+  </p>
 
 # About 📝
 - **Direct Cluster Management**: Manage your Kubernetes cluster directly in your vscode/app window without the need for external dashboards.
-- **Effortless Navigation**: Navigate using your mouse, shortcuts, and arrow keys to interact with your cluster. 🖱️
+- **Effortless Navigation**: Navigate using your mouse, shortcuts, and arrow keys to interact with your cluster. 
 - **Dashboard Access**: Start your Kubernetes dashboards with a single click and use them inside kubiplexer. 
 - **Manifest Creation**: Create and edit Kubernetes manifests directly within Kubyplexer.
 - **Sync with CLI Tools**: Sync other CLI tools like k9s that are running in different TTYs using the given selection.

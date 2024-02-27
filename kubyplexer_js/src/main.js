@@ -1,5 +1,6 @@
 import * as slint from "slint-ui";
 import { spawn } from 'child_process';
+import { stringify } from "querystring";
 
 let ui = slint.loadFile("ui/appwindow.slint");
 let window = new ui.AppWindow();
@@ -18,10 +19,13 @@ window.runPythonScript = function() {
 };
 function runPythonScript(scriptPath) {
     return new Promise((resolve, reject) => {
-        const python = spawn('python', [scriptPath], { stdio: 'pipe' });
+//        const python = spawn('python', [scriptPath], { stdio: 'pipe' });
+        const python = spawn('python', [scriptPath]);
+
         let result = '';
 
         python.stdout.on('data', (data) => {
+            console.log("hello from node " + stringify(data))
             result += data.toString();
         });
 

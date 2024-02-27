@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "esnext",
+        "declaration": true,
+    },
+    "include": [
+        "index.ts"
+    ],
+}
